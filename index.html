@@ -6,14 +6,42 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
             crossorigin="anonymous">
         <style>
-            .text {
-                display: inline-block;
+            .firstImageContainer {
+                padding-top: 2%;
+                padding-right: 2%;
+            }
+            .body {
+                background-color: #4d0000; 
+                color: white;
+                font-family: 'Playfair Display', 'Didot', 'Serif', 'Arial';
+            }
+            .ptext {
+                background-color: #ffe180;
+                border: solid 3px black;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: black;
+                font-size: 30px;
+                padding-right: 15px;
+                padding-top: 1%;
+                padding-bottom: 1%;
+            }
+            .text1 {
+                float: left;
+                width: 55%;
                 vertical-align: top;
+                text-align: right;
+                padding-right: 2%;
+                margin-left: 2%;
+            }
+            .image {
+                float: left;
+                width: 43%;
+                border: solid 3px black;
             }
         </style>
         <title>Lotsa Pasta</title>
     </head>
-    <body style="background-color: #4d0000; color: white">
+    <body class="body">
         <nav class="navbar navbar-expand-xl navbar-dark"
             style="background-color: #300000;">
             <a class="navbar-brand" href="#" style="color: #ffe180" >Lotsa Pasta!</a>
@@ -47,15 +75,30 @@
             </div>
         </nav>
 
-        <div class="firstImageContainer" style="text-align: right;">
-            <div class="text">
-                <p>this is text</p>
+        <div class="firstImageContainer">
+            <div class="text1">
+                <h1 style="font-size: 50px"><i><b>PASTA IS WHERE IT'S AT</b></i></h1>
+                <p class="ptext"> 
+                    Our pasta is the tastiest around, and we can tell you why. We hand craft each and every one 
+                    of our delicious pastas in house every morning using only the freshest and finest ingredients around.
+                    We put hours of love and care into each and every noodle that you slurp into your face, ensuring a 
+                    wholesome and satisfying meal - <i>every time.</i>
+                </p>
             </div>
             <div class="image">
                 <img src="assets/spag.jpg" 
-                width="40%" 
-                height="40%"
-                style="border: solid 3px black">
+                width="100%" 
+                height="100%">
+            </div>
+        </div>
+        <div class="secondImageContainer">
+            <div class="image">
+                <img src="assets/balls.jpg"
+                width="100%"
+                height="100%">
+            </div>
+            <div class="text1">
+
             </div>
         </div>
 
