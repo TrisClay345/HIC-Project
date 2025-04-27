@@ -15,11 +15,12 @@
                 text-shadow: 3px 3px 5px black;
             }
             .footer {
-                clear: both;
                 background-color: #300000;
                 width: 100%;
                 height: 100px;
                 text-align: center;
+                position: fixed;
+                bottom: 0;
             }
             .title {
                 text-align: center;
@@ -29,6 +30,7 @@
                 float: left;
                 width: 50%;
                 text-align: center;
+                margin-bottom: 5%;
             }
             .rightside {
                 border-left: solid 3px white;
@@ -68,6 +70,9 @@
                 padding-top: 5%;
                 float: left;
                 width: 50%;
+            }
+            .container {
+                padding-top: 2%;
             }
         </style>
     </head>
@@ -185,9 +190,11 @@
             </div>
         </div>
 
-        <div class="footer">
-            <p style="padding-top: 2%">© Lotsa Pasta Inc. 2025</p>
-        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Lotsa Pasta - Serving authentic Italian cuisine since 863</p>
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

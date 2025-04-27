@@ -14,6 +14,9 @@
                 text-align: right;
                 padding-right: 5%;
             }
+            .imageContainer {
+                margin-left: 7%;
+            }
             hr.solid 
             {
                 border-top: 3px solid #bbb;
@@ -21,7 +24,7 @@
             }
             hr.underline 
             {
-                border-top: 3px solid #4e4e4e;
+                border-top: 3px solid #ffffff;
                 width: 6%; /* or whatever width you want for the underline */
                 margin-top: 0.1rem; /* small space between "Lotsa" and line */
                 margin-right: 13rem; /* keep it aligned with text */
@@ -44,6 +47,8 @@
                 width: 100%;
                 height: 100px;
                 text-align: center;
+                position: fixed;
+                bottom: 0;
             }
             .ptext {
                 background-color: #ffe180;
@@ -55,7 +60,7 @@
                 padding-right: 2%;
                 padding-top: 1%;
                 padding-bottom: 1%;
-                text-shadow: 1px 1px 7px black;
+                text-shadow: none;
                 border-radius: 10px;
             }
             .r1
@@ -82,6 +87,9 @@
                 margin-left: 0%;
                 font-size: 1.5vw;
             }
+            .container {
+                padding-top: 2%;
+            }
         </style>
     </head>
     <body class="body">
@@ -95,9 +103,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="menu.html">Menu <span
-                                class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html">About Us</a>
@@ -105,8 +112,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contactus.html">Contact Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="meetlotsa.html">Meet Lotsa and the Gang</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="meetlotsa.html">Meet Lotsa and the Gang<span
+                            class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="jobapplication.html">Work With Us</a>
@@ -117,8 +125,6 @@
                 </ul>
             </div>
         </nav>
-
-        <!-- JUST COPY THIS FILE INTO YOUR HTML FILE TO START ITS GOT THE NAVBAR, FOOTER, COLOR SCHEME, AND FONT FAMILY -->
 
         <div style="text-align: center">
             <br>
@@ -137,11 +143,11 @@
                 Upon finding out that his friend, <b>Loadsa Strombolli</b>, was being falsly targeted, he left the Pastafia and founded Lotsa Pasta, and
                 discovered the true dark secret surrounding the Pastafia...
             </p>
-            <div class="imageContainer ">
+            <div class="imageContainer">
                 <img src="assets/LotsaPasta.png" 
                 class="image rounded mx-5"
-                width="20%" 
-                height="20%">
+                width="25%" 
+                height="25%">
             </div>
             
         </div>
@@ -159,18 +165,21 @@
                 and married <b>Aniidmo Pasta</b> shortly after it's founding. He was known as a kind and virtuous leader, back during it's founding,
                 however everything changed once he hired his second in command, <b>Seizall Spaghetti</b>...
             </p>
-            <div class="imageContainer ">
+            <div class="imageContainer">
                 <img src="assets/AllthaPasta.png" 
                 class="image rounded mx-5"
-                width="20%" 
-                height="20%">
+                width="25%" 
+                height="25%">
             </div>
             
         </div>
-        <br>
-        <div class="footer">
-            <p style="padding-top: 2%">© Lotsa Pasta Inc. 2025</p>
-        </div>
+        <br><br><br><br><br>
+        
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Lotsa Pasta - Serving authentic Italian cuisine since 863</p>
+            </div>
+        </footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
