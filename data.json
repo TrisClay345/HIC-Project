@@ -1,0 +1,26 @@
+[
+	{
+		"name": "John John",
+		"date": "7 months ago",
+		"rating": "4 stars",
+		"comment": "Not much to say, food and service was good, good restaurant."
+	},
+	{
+		"name": "Michael",
+		"date": "20 years ago",
+		"rating": "5 stars",
+		"comment": "Best place I've ever been to!! Easy 5 stars."
+	},
+	{
+		"name": "??? - 3 years ago",
+		"date": "3 years ago",
+		"rating": "1 star",
+		"comment": "Wait, what? The restaurant was founded in 863? It's not a typo? The guy who made it has been alive over a thousand years?? What's going on here??? Huh??????"
+	},
+	{
+		"name": "Test Name",
+		"date": "6 months ago",
+		"rating": "5 stars",
+		"comment": "I'm too tired to write another review"
+	}
+]
